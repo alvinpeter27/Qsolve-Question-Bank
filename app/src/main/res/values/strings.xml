@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">
+        <item>QSOLVE</item>
+
+    </string>
+    <string name="question_papers_description">The application is designed to get to your Solved University Question Papers fastest. This will help you to get acquainted with the examination pattern, how questions are being framed and, to do trend spotting and find important questions.
+        This also leads students to the depth which the topic should be studied.
+    </string>
+
+
+    <string-array name="departments_array">
+        <item>Department</item>
+        <item>Department 1</item>
+        <item>Department 2</item>
+        <item>Department 3</item>
+    </string-array>
+
+
+    <string-array name="colleges_array">
+        <item>College A</item>
+        <item>College B</item>
+        <item>College C</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".FirstActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/qsolve"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Tech. Semester 4"
+            android:layout_gravity="center"
+            android:textColor="#4E4C4C"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mechanical / Civil / Computer Science"
+            android:textColor="#4E4C4C"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp" />
+
+
+        <TextView
+            android:id="@+id/longtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:padding="2dp"
+            android:layout_marginStart="13dp"
+            android:text="@string/question_papers_description"
+            android:textColor="@color/unselected_text_color"
+            android:textStyle="normal"
+            android:lineSpacingExtra="7dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:layout_marginTop="28dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A Product of"
+            android:textColor="#676666"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ECREFERENCE BOOKS"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/newuser"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/new_user_button"
+            android:text="NEW USER"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signup"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/sign_in_button"
+            android:text="SIGN IN"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

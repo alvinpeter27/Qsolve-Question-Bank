@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/outline_home_nav"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_person"
+        android:icon="@drawable/outline_person_nav"
+        android:title="My Profile"/>
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/outline_star_nav"
+        android:title="About Qsolve"/>
+
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/outline_privacy_nav"
+        android:title="Privacy Policy" />
+
+    <item
+        android:id="@+id/nav_change_password"
+        android:icon="@drawable/outline_lock_password_nav"
+        android:title="Change Password"/>
+
+    <item
+        android:id="@+id/logout_nav"
+        android:icon="@drawable/baseline_logout_nav"
+        android:title="Logout"/>
+
+
+
+
+</menu>
